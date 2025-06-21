@@ -27,8 +27,6 @@ const Footer = () => {
 
   }, [])
 
-  const contact = contactData[0].map(contactType, )
-
 
 
 

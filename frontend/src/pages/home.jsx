@@ -87,9 +87,14 @@ export default function PortfolioPage() {
           {/* Example project card */}
           {[
             {
-              title: 'Blogs Platform',
+              title: 'Blogs Platform: Genova',
               desc: 'A well-featured and powerful platform for blogs and issues discussions!',
               link: 'https://genova-sepia.vercel.app/'
+            },
+            {
+              title: 'E-commerce Platform: ImpriStyle',
+              desc: 'A frontend web application designed for print-on-demand services!',
+              link: 'https://impristyle.vercel.app/'
             },
            
           ].map((project) => (

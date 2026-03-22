@@ -11,7 +11,7 @@ export default function PortfolioPage() {
   return (
     <div className="w-screen bg-gray-900 text-gray-100">
       {/* Hero Section */}
-      <section className="w-screen flex flex-col-reverse md:flex-row items-center justify-between px-10 py-40">
+      <section className="w-screen flex flex-col-reverse md:flex-row items-center justify-center gap-10 px-10 py-40">
         <div className="w-full md:w-1/2">
           <motion.h1
             className="text-4xl md:text-6xl font-extrabold mb-4"
@@ -54,7 +54,7 @@ export default function PortfolioPage() {
         <motion.img
           src={ProProfile}
           alt="Profile"
-          className="w-60 h-67 rounded-lg object-cover mb-8 md:mb-0 md:mr-35
+          className="w-60 h-67 rounded-lg object-cover mb-8 md:mb-0 md:mr-0
              shadow-[0_0_15px_rgba(0,255,255,0.7)]
              hover:shadow-[0_0_20px_rgba(0,255,255,0.9)]
              transition-shadow duration-300"

@@ -46,9 +46,7 @@ const Footer = () => {
 
         {/* Social Icons */}
         <div className="flex flex-row-reverse gap-4 pt-2 pl-1">
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <Instagram className="hover:text-pink-500" />
-          </a>
+        
           <a href="https://wa.me/0675806074" target="_blank" rel="noopener noreferrer">
             <Phone className="hover:text-green-500" />
           </a>

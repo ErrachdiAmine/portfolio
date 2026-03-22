@@ -14,7 +14,7 @@ export default function PortfolioPage() {
   return (
     <div className="w-screen bg-gray-900 text-gray-100">
       {/* Hero Section */}
-      <section className="w-screen flex flex-col-reverse md:flex-row items-center justify-between px-32 py-50">
+      <section className="w-screen flex flex-col-reverse md:flex-row items-center justify-between px-10 py-40">
         <div className="w-full md:w-1/2">
           <motion.h1
             className="text-4xl md:text-6xl font-extrabold mb-4"
@@ -43,13 +43,15 @@ export default function PortfolioPage() {
               View Projects
               <ArrowRight className="ml-2" size={20} />
             </motion.a>
-            <MotionLink
+            <motion.a
+              href='https://wa.me/212675806074'
               className="inline-flex items-center px-6 py-3 border border-blue-600 text-blue rounded-2xl hover:bg-blue-800 hover:text-white"
               whileHover={{ scale: 1.05 }}
               transition={{ type: 'spring', stiffness: 300 }}
+              
             >
               Contact Me
-            </MotionLink>
+            </motion.a>
           </div>
         </div>
         <motion.img
@@ -69,7 +71,7 @@ export default function PortfolioPage() {
       <section id="skills" className="w-screen px-8 py-16 bg-gray-800">
         <h2 className="text-3xl font-bold text-center mb-12">Tech Stack</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-4xl mx-auto">
-          {['React', 'Tailwind CSS', 'Django', 'Mysql', 'Docker', 'Git', 'JavaScript'].map((tech) => (
+          {['React', 'Tailwind CSS', 'Django', 'Mysql', 'Git', 'JavaScript'].map((tech) => (
             <div
               key={tech}
               className="p-6 bg-gray-700 rounded-2xl flex items-center justify-center shadow-lg"

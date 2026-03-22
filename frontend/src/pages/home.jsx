@@ -2,13 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Mail, Github, Linkedin } from 'lucide-react';
 import ProProfile from '../assets/ProProfile.jpg';
-import { Link } from 'react-router-dom';
-import axios from 'axios';
-import { useState, useEffect } from 'react';
+
 
 export default function PortfolioPage() {
 
-  const MotionLink = motion.create(Link);
 
 
   return (
@@ -57,7 +54,7 @@ export default function PortfolioPage() {
         <motion.img
           src={ProProfile}
           alt="Profile"
-          className="w-60 h-64 rounded-lg object-cover mb-8 md:mb-0
+          className="w-60 h-67 rounded-lg object-cover mb-8 md:mb-0 md:mr-35
              shadow-[0_0_15px_rgba(0,255,255,0.7)]
              hover:shadow-[0_0_20px_rgba(0,255,255,0.9)]
              transition-shadow duration-300"
